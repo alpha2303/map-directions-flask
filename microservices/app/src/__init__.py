@@ -1,6 +1,5 @@
 from flask import Flask
-from googlemaps.client import Client
-import googlemaps.exceptions
+from googlemaps.client import googlemaps
 
 app = Flask(__name__)
 
